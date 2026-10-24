@@ -1,10 +1,33 @@
 {
-  "name": "vanish",
-  "ticker": "VANI",
-  "category": "ZK_Privacy",
+  "name": "mr-india-ai-mcp",
+  "version": "1.0.0",
+  "description": "Mr India AI Model Context Protocol Server for Anti-Corruption Intelligence, Invisibility-Shielded Whistleblowing & Orphan Care",
   "tools": [
-    { "name": "query_conway_state", "description": "Fetches current cellular automaton lattice" },
-    { "name": "execute_x402_settlement", "description": "Executes HTTP 402 micro-settlement" },
-    { "name": "fetch_quicknode_rpc", "description": "Queries QuickNode multi-chain endpoint" }
+    {
+      "name": "report_black_market_cartel",
+      "description": "Submit a zero-knowledge encrypted report exposing hoarding, food adulteration, or predatory cartel extortion",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "cartel_entity": { "type": "string" },
+          "evidence_hash": { "type": "string" },
+          "affected_community": { "type": "string" }
+        },
+        "required": ["cartel_entity", "evidence_hash"]
+      }
+    },
+    {
+      "name": "disburse_orphan_care",
+      "description": "Release direct zero-leakage micro-escrows to grassroots shelters housing and educating orphaned children",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "sanctuary_type": { "type": "string" },
+          "caretaker_address": { "type": "string" },
+          "amount_wei": { "type": "string" }
+        },
+        "required": ["sanctuary_type", "caretaker_address", "amount_wei"]
+      }
+    }
   ]
 }
